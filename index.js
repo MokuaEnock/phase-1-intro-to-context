@@ -61,10 +61,8 @@ const createEmployeeRecord = (employeeInfo) => {
   calculatePayroll = () => {};
 
 cRecord = createEmployeeRecord(["Julius", "Caesar", "General", 27]);
-// Earns 324
 updatedBpRecord = createTimeInEvent(cRecord, "0044-03-14 0900");
 updatedBpRecord = createTimeOutEvent(cRecord, "0044-03-14 2100");
-// Earns 54
 updatedBpRecord = createTimeInEvent(cRecord, "0044-03-15 0900");
 updatedBpRecord = createTimeOutEvent(cRecord, "0044-03-15 1100");
 
